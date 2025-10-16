@@ -69,8 +69,8 @@ EMAIL_ORIGEM = "seu-email@gmail.com"
 # Endereço de e-mail que receberá os logs
 EMAIL_DESTINO = "email-destino@exemplo.com"
 
-# Cole aqui a senha de app de 16 caracteres, SEM ESPAÇOS
-SENHA_EMAIL = "suasenhadeappsemespacos"
+# Cole aqui a senha de app de 16 caracteres,
+SENHA_EMAIL = "suasenhadeapp"
 ```
 
 > [!NOTE]
