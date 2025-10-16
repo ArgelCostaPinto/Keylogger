@@ -73,9 +73,6 @@ EMAIL_DESTINO = "email-destino@exemplo.com"
 SENHA_EMAIL = "suasenhadeappsemespacos"
 ```
 
-> [!IMPORTANT]
-> A senha de app deve ser uma string contínua de 16 letras. O formato `xxxx xxxx xxxx xxxx` (com espaços) causará falha na autenticação.
-
 > [!NOTE]
 > A senha de e-mail presente no código-fonte (`keylogger_email.py`) foi invalidada após a publicação deste projeto para garantir a segurança da conta. Você **precisará** gerar e configurar sua própria Senha de App para que o script funcione.
 
